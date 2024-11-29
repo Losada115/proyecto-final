@@ -203,7 +203,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #ffffff38),
-		url('/img/Sabrosuras\ del\ Huila.png');
+		url("/proyecto-final/img/Sabrosuras\ del\ Huila.png");
 	height: 80rem;
 	background-size: cover;
 	background-position: center;
@@ -682,6 +682,30 @@ html {
 	background-color: var(--dark-color);
 }
 
+/* ************************************* */
+			/* Mapanoti */
+/* *********************************** */
+
+.mapanoti{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 30px;
+}
+
+.mapanoti iframe{
+width: 60%;
+box-shadow: 2px 8px 10px;
+}
+
+.mapanoti h1{
+	font-size: 35px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 160px;
+	
+}
+
 /* ********************************** */
 /*               FOOTER               */
 /* ********************************** */
@@ -699,9 +723,10 @@ html {
 
 .menu-footer {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr) 30rem;
+	grid-template-columns: repeat(2, 1fr) 30rem;
 	gap: 3rem;
 	justify-items: center;
+	
 }
 
 .title-footer {
@@ -736,16 +761,20 @@ html {
 	font-weight: 300;
 }
 
+
 .information ul li a,
 .my-account ul li a {
 	text-decoration: none;
 	color: #fff;
 	font-weight: 300;
+	transition: all 0.3s ease;
 }
 
 .information ul li a:hover,
 .my-account ul li a:hover {
 	color: var(--dark-color);
+	padding-left: 1px;
+	opacity: 0.8;
 }
 
 .social-icons {
