@@ -706,6 +706,25 @@ box-shadow: 2px 8px 10px;
 	
 }
 
+@media (max-width:800px){
+	.mapanoti{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 25px;
+	}
+	.mapanoti iframe{
+		width: 90%;
+	}
+
+	.mapanoti h1{
+		margin-top: 35px;
+	}
+}
+
+
+
 /* ********************************** */
 /*               FOOTER               */
 /* ********************************** */
