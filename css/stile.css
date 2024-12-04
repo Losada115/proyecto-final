@@ -692,7 +692,9 @@ html {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin-bottom: 30px;
+	margin-bottom: 30px; 
+
+
 }
 
 .mapanoti iframe{
@@ -701,10 +703,10 @@ box-shadow: 2px 8px 10px;
 }
 
 .mapanoti h1{
-	font-size: 35px;
+	font-size: 45px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-	margin-top: 160px;
+	margin-top: 150px;
 	
 }
 
@@ -731,22 +733,35 @@ box-shadow: 2px 8px 10px;
 *********************
 	Video corto
 ******************** */
-.master{
-    width: 80%;
-    padding: 70px;
+.master {
+	display: flex;
+	justify-content: center;
+    width: auto;
+    padding: 40px;
     margin: auto;
-    background-image: linear-gradient();
+    text-align: center;
 }
 
-h1{
-    text-align: center;
-	font-size: 30px;
-	margin-bottom: 10px;
+.master h1 {
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
+	margin-top: 260px;
 }
-video{
-    width: 100%;
+
+video {
+    width: 65%;
+    max-width: 500px; 
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+	margin-left: 100px;
 }
+
+video:hover {
+    transform: scale(1.05);
+}
+
 
 
 /* ********************************** */
