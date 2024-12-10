@@ -204,7 +204,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #ffffff38),
-		url("/img/Sabrosuras\ del\ Huila.png");
+		url("/proyecto-final/img/Sabrosuras\ del\ Huila.png");
 	height: 80rem;
 	background-size: cover;
 	background-position: center;
