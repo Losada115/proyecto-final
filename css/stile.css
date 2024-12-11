@@ -388,7 +388,7 @@ html {
 	text-transform: capitalize;
 	border-radius: 2rem;
 	cursor: pointer;
-	background-image: linear-gradient(#ffd000, #ffcd8d80);
+	background-image: linear-gradient(#ffd000, #ff9d00);
 	
 }
 
@@ -434,7 +434,7 @@ html {
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
-	background-image: linear-gradient(#ffd000, #fdb55760);
+	background-image: linear-gradient(#ffd000ea, #fafafa);
 	
 }
 .contenedor .contenedor-items .item .img-item{
@@ -578,7 +578,7 @@ html {
     display: block;
     width: 100%;
     border: none;
-    background-image: linear-gradient(#ffc400, #e7f709);
+    background-image: linear-gradient(#ffc400, #f7f200);
     color: #fff;
     border-radius: 5px;
     font-size: 18px;

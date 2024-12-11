@@ -5,19 +5,22 @@
 }
 
 body {
-  height: 50rem;
+  width: auto;
+  height: 100%;
   background-image: linear-gradient(90deg, #000000c2, #000000c2),
       url("/proyecto-final/img/Sabrosuras\ del\ Huila.png");
   background-size: cover;
-  background-position: center;
+  background-position:center ;
+
+
 }
 
 .form-register {
   width: 400px;
-  background-image: linear-gradient(10deg, #ff3b05, #ffb300);
+  background-image: linear-gradient(10deg, #d1d1d1b4, #ffda09c2);
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
   border-radius: 4px;
   font-family: 'calibri';
   color: white;
