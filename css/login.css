@@ -9,7 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(https://img.freepik.com/fotos-premium/fondo-panaderia-dulces-pan_1106454-127890.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727308800&semt=ais_hybrid) no-repeat;
+    background-image: linear-gradient(100deg, #000000, #ffffff88),
+		url("/img/Sabrosuras\ del\ Huila.png");
     background-size: cover;
     background-position: center;
 

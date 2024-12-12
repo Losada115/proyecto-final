@@ -11,7 +11,10 @@
 		<link rel="stylesheet" href="css/stile.css" />
 		<link rel="shortcut icon" href="img/Sabrosuras del Huila.png">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 		<script src="/js/sabrosuras.js"></script>
+		
 	</head>
 	<body>
 		<header>
@@ -32,31 +35,20 @@
 
 					<div class="container-user">
 						<i class="fa-solid fa-user"></i>
-						<i class="fa-solid fa-basket-shopping"></i>
-						<div class="content-shopping-cart">
-							<span class="text">Carrito</span>
-							<span class="number">(0)</span>
-						</div>
-					</div>
+						
 				</div>
 			</div>
-
-			<div class="container-navbar">
-				<nav class="navbar container">
-					<i class="fa-solid fa-bars"></i>
-					<ul class="menu">
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Productos</a></li>
-						<li><a href="#">Servicios</a></li>
-						<li><a href="#">Quienes somos?</a></li>
-					</ul>
-
-					<form class="search-form">
-						<input type="search" placeholder="Buscar..." />
-						<button class="btn-search">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</button>
-					</form>
+			<header class="header" id="inicio">
+				<img class="hamburguer" src="/img/bx-menu-alt-left.svg" alt="">
+				<nav class="menu-navegacion">
+						<a href="#inicio">Inicio</a>
+						<a href="#servicios">Categorias</a>
+						<a href="#Galeria">Productos</a>
+						<a href="#Quienes">Quienes somos?</a>
+						<a href="#ubi">Ubicacion</a>
+				</nav>
+				
+			</header>
 				</nav>
 			</div>
 		</header>
@@ -100,19 +92,20 @@
 					</div>
 				</div>
 			</section>
-			<section class="container top-categories">
+			<section class="container top-categories" id="servicios">
 				<h1 class="heading-1">Mejores Categorias</h1>
 				<div class="container-categories">
 					<div class="card-category category-moca">
-						<p>Roscas</p>
+						<span class="titulo-item">Roscas</span>
 						
 					</div>
 					<div class="card-category category-expreso">
-						<p>bizcochos</p>
+						<span class="titulo-item">Bizcochos</span>
 						
 					</div>
 					<div class="card-category category-capuchino">
-						<p>Galletas</p>
+						<span class="titulo-item">Galletas</span>
+					
 						
 					</div>
 				</div>
@@ -126,7 +119,7 @@
 					
 				</div>
 
-				<section class="contenedor">
+				<section class="contenedor" id="Galeria">
 					<!-- Contenedor de elementos -->
 					<div class="contenedor-items">
 						<div class="item">
@@ -230,7 +223,7 @@
 					</div>
 				</section>
 					
-			<section class="container blogs">
+			<section class="container blogs" id="Quienes">
 				<h1 class="heading-1">Quienes somos?</h1>
 
 				<div class="container-blogs">
@@ -295,7 +288,7 @@
 
 		<!-- Mapanoti -->
 
-		<div class="mapanoti">
+		<div class="mapanoti" id="ubi">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d580.9004309995385!2d-75.6283818413687!3d2.1955067002888113!3m2!1i1024!2i768!4f13.1!2m1!1zNDEgQ3JhLiA5LMKgR2FyesOzbiwgSHVpbGE!5e1!3m2!1ses!2sco!4v1732913509310!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 		<h1>Ubícanos con  <br> ayuda del mapa</h1>
@@ -368,8 +361,10 @@
 		</footer>
 
 		<script
+		    
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"
 		></script>
+		<script src="/js/menu.js"></script>
 	</body>
 </html>
